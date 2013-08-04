@@ -1,6 +1,6 @@
 about
 Title of about screen
-about Keypad-Mapper 3
+про Keypad-Mapper 3
 
 about_logo_url
 Url to enaikoon site
@@ -10,21 +10,21 @@ about_message
 About text
 <br/>
 %1$s<BR/> 
-Version: %2$s<br/>
+Версія: %2$s<br/>
 <br/>
-keypadmapper has originally been developed by <font color=#ffbf27><a href="mailto:nroets@gmail.com">Nic Roets</a> </font> and was published at the end of the year 2010.<br/>
-Mid 2011 keypadmapper2 was presented, a fork of keypadmapper.<br/>
-This version was used by <font color=#ffbf27><a href="https://www.enaikoon.com">ENAiKOON</a></font> beginning of 2013 to implement the present version. The source code has been deployed to https://github.com/msemm/Keypad-Mapper-3.git.<br/>
+Першу версію keypadmapper створив <font color=#ffbf27><a href="mailto:nroets@gmail.com">Nic Roets</a> </font>, та опублікував наприкінці 2010-го року.<br/>
+В середині 2011-го був представлений keypadmapper2, відгалудження від keypadmapper.<br/>
+Дана версія використовується в <font color=#ffbf27><a href="https://www.enaikoon.com">ENAiKOON</a></font> з початку 2013-го року як поточна. Код програми викладений на https://github.com/msemm/Keypad-Mapper-3.git.<br/>
 <br/>
-Herewith we would like to express our gratitude to Nic, who supported us during the implementation of this app's version with his good ideas and patience.<br/>
+При цьому хочемо висловити наше шанування Ніку (Nic), який підтримував нас в процесі створення цієї версії програми своїми чудовими ідеями та терпінням.<br/>
 <br/>
-For comments, suggestions, or problems regarding this app, please do not hesitate to contact ENAiKOON by e-mail <font color=#ffbf27><a href="mailto:inviu@enaikoon.de">inViu@enaikoon.de</a></font> or phone +49 30 397 475-30.<br/>
+З приводу коментарів, пропозицій або проблем стосовно програми не соромтеся звертатись в ENAiKOON електронною поштою <font color=#ffbf27><a href="mailto:inviu@enaikoon.de">inViu@enaikoon.de</a></font> або телефоном +49 30 397 475-30.<br/>
 <br/>
-<b>ENAiKOON office hours:</b><br/>
-Mo.-Fr. from 9:00 am to 1:00 pm<br/>
-and from 2:00 pm to 6:00 pm<br/>
+<b>Робочий час в ENAiKOON:</b><br/>
+Пн.-Пт. з 9:00 до 13:00<br/>
+та з 14:00 до 18:00<br/>
 <br/>
-<b>Our address:</b><br/>
+<b>Наша адреса:</b><br/>
 ENAiKOON GmbH<BR/> Telematics Factory<br/>
 Helmholtzstrasse 2-9<br/>
 10587 Berlin<br/>
@@ -32,7 +32,7 @@ Germany
 
 all_streets_in_selected_radius
 Missing numbers all streets
-all streets in selected radius
+усі вулиці в заданих межах
 
 app_name
 Application name
@@ -40,7 +40,7 @@ Keypad-Mapper 3
 
 bugreport_dialogheader
 Title of dialog that notify user about error
-Keypad-Mapper 3 error
+Помилка Keypad-Mapper 3
 
 bugreport_subject
 Bug report e-mail subject
@@ -88,15 +88,15 @@ Text on the button that prints symbol 9
 
 buttonA
 Text on the button that prints symbol a
-a
+а
 
 buttonB
 Text on the button that prints symbol b
-b
+б
 
 buttonC
 Text on the button that prints symbol c
-c
+в
 
 buttonCLR
 Text on the button that clears house number and info text w/o saving it
@@ -104,51 +104,51 @@ CLR
 
 buttonD
 Text on the button that prints symbol d
-d
+г
 
 buttonE
 Text on the button that prints symbol e
-e
+д
 
 buttonF
 Text on the button that prints symbol f
-f
+е
 
 buttonFront
 Text on the button that saves address (house in front of you)
-F
+^
 
 buttonG
 Text on the button that prints symbol g
-g
+є
 
 buttonH
 Text on the button that prints symbol h
-h
+ж
 
 buttonI
 Text on the button that prints symbol i
-i
+з
 
 buttonJ
 Text on the button that prints symbol j
-j
+и
 
 buttonK
 Text on the button that prints symbol k
-k
+к
 
 buttonL
 Text on the button that prints symbol l
-l
+л
 
 buttonLeft
 Text on the button that saves address (house on the left)
-L
+Л
 
 buttonRight
 Text on the button that saves address (house on the right)
-R
+П
 
 buttonSep1
 Text on the button that print symbol ,
@@ -164,35 +164,35 @@ Text on the button that print symbol /
 
 cancel
 CANCEL button text
-cancel
+скасувати
 
 City
 Text label for city field
-city
+Населений пункт
 
 close
 Button text
-close
+закрити
 
 Countrycode
 Text lable for country code
-country code
+Код країни
 
 dialog_wav_explanation_html
 HTML explaining what the preference for WAV file path means
-Please enter a path that will be used on your JOSM / Potlach computer to save the WAV files. This path information will be added to all WAV files referenced in the GPX file.<br>
+Зазначте, будь-ласка, шлях до каталогу на вашому комп'ютері, який використовуватиметься програмами JOSM / Potlach для збереження файлів WAV. Інформацією про вказаний шлях будуть доповнені усі файли WAV, на які посилаються файли GPX.<br>
 <br>
-All WAV files must be located in that path so that JOSM / Potlach can correctly play them when the GPX file is loaded and the audio marker clicked.<br>
+Усі файли WAV слід перенести у вказаний каталог, за цієї умови JOSM / Potlach матимуть можливість вірно їх відтворити коли буде завантажений файл GPX та активований звуковий маркер.<br>
 <br>
-If no path has been configured, then c:\ will be used with Windows and / will be used with Linux as the default.<br>
+Якщо шлях не зазначений явно, будуть застосовані стандартні значення: c:\ на платформі Windows та / в Linux.<br>
 <br>
-Examples for paths:<br>
+Приклади шляхів:<br>
 &nbsp;&nbsp;Windows: <b>c:\myrecordedfiles\</b><br/>
 &nbsp;&nbsp;Linux: <b>/usr/local/tmp/</b><br/>
 
 distance
 Missing numbers street distance (m)
-Distance: %dm
+Distance: %dм
 
 distance_feet
 Missing numbers distance feet
@@ -200,35 +200,35 @@ Distance: %dft
 
 distance_of_node_to_pos
 Popup window distance text
-distance of node\nto own position
+відстань до точки\nвід мене
 
 errorFileOpen
 Text of the message that tells about reading/writing file errors
-error writing data files
+помилка запису даних
 
 errorGpsDisabled
 Text of dialog that tells about disabled gps
-GPS is disabled, enable GPS to use this application
+GPS вимкнуто, увімкніть GPS для роботи з цією програмою
 
 errorStorageRO
 Text of the message that tells about read-only access of storage
-external storage is read-only, Keypad-Mapper 3 needs writing access to save the entered data
+зовнішній носій доступний в режимі "тільки читання", Keypad-Mapper 3 потребує прав на запис щоб зберігати введену інформацію
 
 errorStorageUnavailable
 Text of the message that external storage is not available
-external storage is unavailable, Keypad-Mapper 3 needs to access it to save the entered data
+зовнішній носій недоступний, Keypad-Mapper 3 потрібен доступ до нього щоб зберігати введену інформацію
 
 error_audio_init
 If audio cannot be initialized, this error message is shown
-cannot initialize audio recorder
+помилка ініціалізації пристрою звукозапису
 
 error_not_recording
 Error to be shown if recording is not active and user wants to record audio note
-recording must be activated in order to use this feature
+необхідно увімкнути запис даних
 
 error_no_location_for_audio
 Error to show when user taps record audio note icon, but there's no reception or valid filtered data
-you cannot record audio notes when there\'s no GPS signal or valid filtered location data
+звукові нотатки неможливо записати за відсутності сигналу GPS або досить точних даних про розташування
 
 feet_display_unit
 Always ft - it will be displayed in menu and in satellite info
@@ -236,71 +236,71 @@ ft
 
 FolderCreationFailed
 Message that tells about error during folder creation
-the folder storing the data on the external storage could not be created
+помилка створення папки на зовнішньому носії
 
 help_text_1
 Help text (part 1)
-<h2><font color="#ffbf27">Thank you for using the new Keypad-Mapper 3.1!</font></h2>
-This app is highly optimised to add house numbers and address tags to the OpenStreetMap database.<br>
+<h2><font color="#ffbf27">Дякуємо за те, що користуєтеся Keypad-Mapper 3.1!</font></h2>
+Ця програма оптимізована для задачі наповнення бази OpenStreetMap адресною інформацією.<br>
 <br>
-<h3><u>Quick start:<br></u></h3>
+<h3><u>З чого почати:<br></u></h3>
 <ol>
-<li value="1">find an area where house numbers are missing <a href="http://overpass-api.de/hausnummern.html"><font color="#ffbf27">here</font></a></li>
-<li value="2">print this area for easier navigation and go there.</li>
-<li value="3">switch GPS on: it is not possible to store house numbers with poor GPS reception; an error message will appear if GPS is not available.</li>
-<li value="4">tap on the app icon in the top left corner and then on menu option 'keypad' or swipe to the keypad screen</li>
-<li value="5">go to the position where you want to record the first house number; ensure that the house entrance is exactly to your right or to your left at the moment when you are saving the information; otherwise it will be difficult later to assign the house number node to the correct building in the OSM editor</li>
-<li value="6">type the house number on the keypad</li>
-<li value="7">save the house number by tapping on one of the three white arrows:<br>
+<li value="1">знайдіть <a href="http://overpass-api.de/hausnummern.html"><font color="#ffbf27">тут</font> область, де відсутні номери будівель</a></li>
+<li value="2">для зручності роздрукуйте карту області та вирушайте туди.</li>
+<li value="3">увімкніть GPS: зберігати номери будівель в умовах слабкого прийому сигралів GPS неможливо; якщо GPS недоступний, буде відображене повідомлення про помилку.</li>
+<li value="4">тапніть на іконку, розташовану вгорі зліва в запущеній програмі, і потім на опції меню 'Клавіатура', або "гортайте" до екрану Клавіатура</li>
+<li value="5">перейдіть в місце, де бажаєте записати номер першої будівлі; переконайтеся що вхід розташований точно праворуч або ліворуч саме в ту мить, коли ви зберігаєте інформацію, інакше згодом буде важко співставити присвоєний номер із будівлею в редакторі OSM</li>
+<li value="6">наберіть на клавіатурі номер</li>
+<li value="7">збережіть номер, тапнувши на одній з трьох білих стрілок:<br>
 <ul>
-<li>the arrow pointing to the left means that the house number is on your left side in relation to your walking direction</li>
-<li>the arrow pointing to the right means that the house number is on your right side in relation to your walking direction</li>
-<li>the arrow pointing up means that the house number is in front of you (e.g. at a T crossing)</li>
+<li>стрілка, яка вказує наліво, має на увазі що будівля з введеним номером знаходиться ліворуч відносно напрямку вашого руху</li>
+<li>стрілка, яка вказує направо, має на увазі що будівля з введеним номером знаходиться праворуч відносно напрямку вашого руху</li>
+<li>стрілка, яка вказує вгору, має на увазі що будівля з введеним номером прямо перед вами (тобто на Т-подібному перехресті)</li>
 </ul>
-The circle in the top left corner app icon reveals the number of address nodes you have added during the current mapping session.<br>
-Repeat steps 5, 6, and 7 for each house number until all house numbers are recorded.</li>
-<li value="8">when you are finished mapping house numbers, tap on the icon with the small house in the top left corner and then tap on 'share recorded data'.<br>This allows you to send the recorded data as an email attachment to the computer used for the OSM editor (e.g. JOSM)</li>
-<li value="9">open the e-mail and save the attached files to your PC</li>
-<li value="10">open the OSM editor, then the .gpx and .osm file with the same name as well as the corresponding photos; load the already existing OSM data;<br>
-now you will see all recorded house numbers as well as the route taken while recording the data as well as an icon for each taken photo on top of the existing OSM data</li>
-<li value="11">load the .wav files of the recorded audio notes with a right click on the .gpx file in the top right corner of JOSM and a subsequent click on 'Import Audio'</li>
-<li value="12">assign each house number to its respective building; look at the pictures and listen to the audio notes to remember all information available for optimizing the data</li>
-<li value="13">add postal code, street name, city, and country to each address node if this information was not entered while using the app when walking through the streets</li>
-<li value="14">upload the optimised and completed data to OSM</li>
-<li value="15">delete the recorded data on the phone / tablet with settings menu option 'delete all recorded data' on the settings screen</li>
+У колі в іконці програми, розміщеної вгорі зліва, відображено кількість адресних точок, доданих протягом поточної сесії картографування.<br>
+Повторюйте кроки 5, 6, 7 для кожного номеру будівлі доку не будуть записані усі номери.</li>
+<li value="8">коли завершите мапити номери, тапніть на іконці з маленькою хатиною вгорі зліва, а потім - на 'Передати записані дані'.<br>Так ви надішлете зібрану інформацію у вигляді долучення до електронної пошти на комп'ютер з редактором OSM (напр., JOSM)</li>
+<li value="9">відкрийте отриманого електронного листа та збережіть на комп'ютері долучені файли</li>
+<li value="10">запустіть редактор OSM, відкрийте файли .gpx та .osm з відповідними іменами, а також фотографії; завантажте існуючі дані OSM з сервера;<br>
+ви побачите усі зібрані номери будівель, записаний в процесі маршрут руху, а також піктограми кожної зробленої фотографії, поверх даних OSM</li>
+<li value="11">завантажте файли .wav записаних звукових нотаток правим кліком на файлі .gpx у верхньому правому куті вікна JOSM і подальшим кліком на 'Імпортувати аудіо'</li>
+<li value="12">пов'яжіть кожен номер із відповідною будівлею; дивіться на фотографії та слухайте звукові нотатки щоб пригадати всю наявну інформацію</li>
+<li value="13">додайте поштовий індекс, назву вулиці, населеного пункту, країну, якщо ця інформація не була введена коли ви гуляли вулицями, і якщо ви ще не освоїли ввод адрес через відношення</li>
+<li value="14">коли завершите, відвантажте дані в OSM</li>
+<li value="15">вилучіть записані дані з телефона / планшета, скориставшись опцією меню налаштувань 'Вилучити всю зібрану інформацію'</li>
 </ol>
-Allow a few minutes and a refresh of the OSM map in your browser to view the newly recorded house numbers on the map in the high zoom levels.<br>
+Зачекайте кілька хвилин та оновіть мапу OSM у вашому браузері - ви побачите щойно зібрані номери будівель на найбільших рівнях масштабування.<br>
 <br>
-<h3><u>Keypad-Mapper 3 features</u></h3>
-The app provides the following screens:
+<h3><u>Характеристики Keypad-Mapper 3</u></h3>
+Робота з програмою здійснюється через екрани:
 <ol>
-<li>keypad screen</li>
-<li>address editor</li>
-<li>GPS details</li>
-<li>settings</li>
+<li>клавіатура</li>
+<li>редактор адресної інформації</li>
+<li>відомості про GPS</li>
+<li>налаштування</li>
 </ol>
-You have three options to access the different screens:<br>
+Навіґація екранами може бути здійснена трьома способами:<br>
 <ol>
-<li>tap on the icon in the top menu of the screen</li>
-<li>tap on the icon with the house and then tap on the icon of the screen you want to see</li>
-<li>swipe left or right by moving one finger horizontally across the screen</li>
+<li>тапом на відповідній піктограмі у верхній частині екрану програми</li>
+<li>тапом на піктограмі з хатинкою та подальшим тапом піктограми бажаного екрану</li>
+<li>горизонтальним гортанням пальцем по екрану вліво або вправо</li>
 </ol>
 <br>
-<b>Recording data:</b><br>
-Keypad-Mapper provides a 'recording data' menu option that allows users to start/stop recording of data and to start recording based on a new set of .osm / .gpx files.<br>
-In addition a settings option 'turn off GPS' exists. The 'recording data' feature and the 'turn off GPS' feature correlate as follows:<br>
+<b>Запис даних:</b><br>
+В меню Keypad-Mapper міститься опція 'Запис даних', яка дозволяє розпочати/зупинити запис даних і відповідно ініціює початок нового набору файлів .osm / .gpx.<br>
+Доповнює її опція 'Вимкнути GPS'. Ці дві опції співвідносяться наступним чином:<br>
 <ul>
-<li>if recording is active, a .gpx track is recorded</li>
-<li>if recording is active then a .gpx file is recorded even if the app is in the background</li>
-<li>if recording is off and the 'turn off GPS' feature is activated, then GPS is switched off in order to save battery power</li>
+<li>якщо активовано запис, записується трек .gpx</li>
+<li>якщо активовано запис, файл .gpx записується навіть коли програма працює у фоновому режимі</li>
+<li>якщо запис вимкнуто і задіяна опція 'Вимкнути GPS', то GPS вимикається щоб зберегти заряд батареї</li>
 </ul>
 
 help_text_2
 Help text (part 2)
-<b>History information:</b><br>
-Two or three mapped house numbers appear on the right side of the house number entry field on the keypad screen. These house numbers are preceded with 'L:', 'F:' or 'R:'. This makes it easier to check if recent house numbers were mapped on the correct side of the road.<br>
+<b>Протоколювання:</b><br>
+Праворуч від поля вводу номеру відображено два-три раніше введені номери. Перед ними зазначено 'Л:', '^:' or 'П:'. Так можна легко переконатися в правильності вводу адрес.<br>
 <br>
-<b>The survey date is saved with each address tag:</b><br>
+<b>Кожна адресна мітка містить інформацію про дату створення:</b><br>
 Example:<br>
 <br>
 &nbsp;&nbsp;&#60;node id="-1" visible="true" lat="52.497442495127025" lon="13.350499497003666"&#62;<br>
@@ -308,18 +308,18 @@ Example:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&#60;tag k="addr:housenumber" v="15"/&#62;<br>
 &nbsp;&nbsp;&#60;/node&#62;<br>
 <br>
-<b>Usability hints:</b><br>
+<b>Для зручнішої роботи:</b><br>
 <ul>
-<li>a long tap on the house number entry field in the keypad screen opens a full keyboard for entering an unusual house number</li>
-<li>various readability improvements (e.g. bigger characters, better contrast, etc.) especially for mapping under direct sunlight</li>
-<li>improved response time of the app in case many house numbers were mapped</li>
-<li>in the address editor screen the house name entry field was moved to the bottom of the page</li>
+<li>тривалий тап у полі вводу номера будівлі активує повнорозмірну клавіатуру для вводу нетипових номерів</li>
+<li>різноманітні вдосконалення, що підвищують читабельність (напр., крупніші символи, підвищений контраст і т.п.), особливо під прямим сонячним промінням</li>
+<li>покращено швидкодію програми при позначенні великої кількості номерів будівель</li>
+<li>на екрані редактора адрес поле вводу назви будівлі (addr:housename) переміщено в нижню частину сторінки</li>
 </ul>
 <br>
-<b>Audio notes:</b><br>
-Recording an audio note is less conspicuous to others than taking a photo, therefore some mappers prefer to record voice memos instead of taking GPS photos in order to avoid calling the attention of passerby.<br>
-The audio note feature works similarly to the photo feature: it allows you to record a voice memo and save it along with a GPS coordinate. Unlike .jpg files, the GPS coordinates for audio notes are stored in the .gpx file, therefore the .gpx file must be loaded in JOSM before loading the .wav file.
-The audio note entry in the .gpx file has the following content:<br>
+<b>Звукові нотатки:</b><br>
+Запис звукової нотатки не так кидається в очі як фотографування, тому деякі маппери надають перевагу запису звуку, а не фотографіям з геомітками, щоб не привертати уваги перехожих.<br>
+Опція звукової нотатки працює подібно до фотографування: вона надає вам можливість записати голосову замітку і зберегти її з прив'язкою до координат GPS. На відміну від файлів .jpg, координати GPS звукових нотаток зберігаються у файлі .gpx, а тому файл .gpx слід завантажити в JOSM до завантаження файлу .wav.
+Елемент звукової нотатки у файлі .gpx має такий зміст:<br>
 <br/>
 &nbsp;&nbsp;&#60;wpt lat="52.49739929702362" lon="13.350353411755215"&#62;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&#60;time&#62;2013-06-01T14:17:14Z&#60;/time&#62;<br>
@@ -327,142 +327,142 @@ The audio note entry in the .gpx file has the following content:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&#60;ele&#62;89.50511403620409&#60;/ele&#62;<br>
 &nbsp;&nbsp;&#60;/wpt&#62;<br>
 <br/>
-Audio notes and all other recorded files used for editing the data are sent to the PC using the 'share recorded data' feature.<br>
-JOSM allows you to load all mapped data including the recorded audio notes specific to the GPS position where it was recorded. Playing the audio note will help you remember details of that specific location.<br>
-In JOSM please proceed as follows to load and play a voice file:<br>
+Звукові нотатки та усі інші записані файли, що використовуються для правки даних, надсилаються на комп'ютер з допомогою опції 'Передати записані дані'.<br>
+JOSM дозволяє завантажити усе, що було замаплене, включаючи записані звукові нотатки, пов'язані з місцями їх запису. Відтворення звукової нотатки допоможе вам згадати подробиці стосовно конкретної місцевості.<br>
+У JOSM для завантаження та відтворення голосового файлу зробіть так:<br>
 <ol>
-<li value="1">launch JOSM</li>
-<li value="2">open .osm, .gpx and eventually .jpg files of a mapping session</li>
-<li value="3">right mouse click in the top right corner in section 'Layers' on the .gpx file.</li>
-<li value="4">select 'import audio'</li>
-<li value="5">click on the .wav files you want to load --> voice note icons will appear on the map where they were recorded</li>
-<li value="6">click on one of these icons to play the .wav file</li>
+<li value="1">запустіть JOSM</li>
+<li value="2">відкрийте .osm, .gpx та зрештою .jpg-файли картографічної сесії</li>
+<li value="3">правий клік мишки у верхній правій частині вікна програми в розділі 'Шари' на файлі .gpx.</li>
+<li value="4">оберіть 'Імпортувати аудіо'</li>
+<li value="5">клікніть на файлах .wav, які бажаєте завантажити --> піктограми голосових нотаток з'являться на мапі в місцях, де вони були записані</li>
+<li value="6">клікніть на одній з цих піктограм щоб відтворити файл .wav</li>
 </ol>
-Additional details can be found <a href="http://wiki.openstreetmap.org/wiki/Audio_mapping"><font color="#ffbf27">here</font></a><br>
+Більше подробиць можна прочитати <a href="http://wiki.openstreetmap.org/wiki/Audio_mapping"><font color="#ffbf27">тут</font></a><br>
 <br>
-<b>Camera:</b><br>
-The camera icon allows you to take GPS photos which will be stored and transmitted by e-mail along with the .osm and .gpx files for loading them into the OSM editor.<br>
-This allows you to reference the photo with exact GPS coordinates for details of the particular address when editing the data in the OSM editor at a later time.<br>
+<b>Камера:</b><br>
+Піктограма камери надає вам можливість робити фотографії з геомітками, які будуть збережені та передані електронною поштою разом з файлами .osm та .gpx для подальшого завантаження в редактор OSM.<br>
+Це дає можливість посилатися на фото з точними координатами GPS щоб з'ясувати подробиці стосовно конкретної адреси в процесі правки даних в редакторі OSM згодом.<br>
 <br>
-<b>Freeze GPS position:</b><br>
-An address node is normally stored with the GPS position of the device the moment the user taps on the arrpw keys in the keypad screen.<br>
-When the house number cannot be read from where the GPS coordinates should be stored for a particular house, it is possible to freeze the GPS position while walking to see the house number. Avoid walking back and forth by clicking on the snow flake icon to freeze the GPS coordinates at the correct position. Save the address node once the house number is entered. Saving it will automatically use the previously frozen GPS coordinates and unfreeze it for the next address node.<br>
+<b>Зафіксувати положення GPS:</b><br>
+Зазвичай адресна точка зберігається з GPS-координатами в тому місці, де користувача тапнув на кнопці зі стрілкою на екрані клавіатури.<br>
+Коли номер будівлі не видно з місця, де найкраще було б зберегти координати окремої будівлі, є можливість зафіксувати положення GPS та продовжити рух щоб вияснити номер будівлі. Уникайте ходіння туди-сюди, натискаючи на сніжинку щоб зафіксувати координати GPS у правильному місці. Адресна точка буде збережена одразу після вводу номеру будівлі. При цьому автоматично будуть використані зафіксовані раніше координати GPS і фіксування буде зняте для вводу наступної адресної точки.<br>
 <br>
 
 help_text_3
 Help text (part 3)
-<b>Add additional notes:</b><br>
-It is useful to save a note in addition to or instead of a GPS photo or an audio note to be referenced later in the OSM editor when optimising the recorded data. This text information is stored along with the house number after tapping on one of the arrow keys on the keypad screen.<br>
-You can add a note to any address node by tapping into the 'note for this location' text entry line below the big white house number entry field. A full keyboard will open for you to enter the text information.<br>
-Tapping on one of the arrow keys on the keypad screen closes the full keyboard and saves the house number along with the note.<br>
-Tapping into the big white house number entry field also closes the full keyboard.<br>
-In the OSM editor, this note will be presented as a 'name' tag. You can delete this tag after using the information or rename the tag.<br>
+<b>Створюйте примітки:</b><br>
+Буває корисно зберегти примітку на додачу до фотографії або звукової нотатки, щоб звернутися до неї згодом в редакторі OSM в процесі обробки записаних даних. Така текстова інформація зберігається нарівні з номером будівлі після тапу на одній з клавіш зі стрілками на екрані клавіатури.<br>
+Ви можете додати примітки до будь-якої з адресних точок, тапнувши на полі вводу 'Примітка до місця' під великим білим полем вводу адреси будинка. Буде відкрита повнорозмірна клавіатура.<br>
+Тап на одній з клавіш зі стрілками приховує повнорозмірну клавіатуру та зберігає номер разом з приміткою.<br>
+Тап у великому білому полі вводу номеру будівлі також приховує повнорозмірну клавіатуру.<br>
+В редакторі OSM ця примітка буде представлена тегом 'name'. Ви можете вилучити цей тег після того як скористаєтеся зазначеною у ньому інформацією, або можете перейменувати його.<br>
 <br>
-<b>Undo icon:</b><br>
-On the right side of the house number entry field are the last entered house numbers. The latest house number is shown at the top of the list. For each house number it is indicated if it was mapped to the left, to the right or in forward direction.<br>
-By tapping on the undo icon in the menu bar the last entered house number can be deleted. It is not possible to delete multiple house numbers.<br>
+<b>Піктограма скасування:</b><br>
+Праворуч від поля вводу номера будівлі відображені останні введені номери в зворотньому хронологічному порядку. Біля кожного відображена позначка напрямку.<br>
+Тапнувши на піктограму скасування в панелі меню, ви вилучите останній введений номер. Вилучити декілька номерів неможливо.<br>
 <br>
-<b>Long tap on house number entry field opens full keyboard</b><br>
-In rare cases house numbers can be found which cannot be entered with the keys on the keypad screen. In such cases the mapper can now long tap on the house number entry field to open the full keyboard for writing any text. The full keyboard closes automatically after tapping on one of the three arrow tabs in the keypad-screen.<br>
+<b>Тривалий тап на полі вводу номера будівлі активує повнорозмірну клавіатуру</b><br>
+Зрідка можуть трапитися будівлі з номерами, ввести які з екрану клавіатури неможливо. Тоді можна зробити тривалий тап на полі вводу номеру будівлі щоб активувати повнорозмірну клавіатуру та ввести довільний текст. Повнорозмірна клавіатуру буде прихована автоматично післа тапу на одній з трьох клавіш зі стілками.<br>
 <br>
-<b>Settings options:</b><br>
+<b>Налаштування:</b><br>
 <ul>
-<li>language:<br>
-currently the Keypad-Mapper supports nine languages: Dutch, English, French, German, Greek, Italian, Polish, Russian, Spanish.<br>
-Pls contact ENAiKOON if you wish to translate this app into another language. Your inquiry will be very welcome!<br>
-Special thanks to Stefano for the Italian translation as well as for the promotion of Keypad-Mapper 3 on talk-it<br>
-Additional thanks to Adam for the Polish translation and to Harry for the Dutch translation.</li>
-<li>rate the app:<br>
-In order to attract as many OSM mappers as possible a good rating of the app on Google Play is essential. Pls help us promoting this app with a good rating!</li>
-<li>delete all collected data:<br>
-After transferring the mapped data to a PC and uploading it to OSM, you might want to delete the mapped data on the device in order to free some space for the next mapping tour. The 'delete all collected data' feature in the settings screen can be used to delete the data.<br>
-In order to avoid an unattempted deleting of recorded data there is no 'delete all collected data' button in the menu bar or in the navigation menu. Instead this option is available in the settings screen only.</li>
-<li>keep screen on:<br>
-allows you to stop the device from switching off the screen after a while</li>
-<li>use compass:<br>
-Normally the GPS heading information is used to calculate what is 'left' or 'right' from the path the mapper walks. If the walking speed is slow or if the mapper is even standing still the GPS heading information provided by the GPS receiver can be wrong. This is a weakness of the GPS technology.<br>
-To overcome this problem, the Keypad-Mapper can use the compass built into many Android devices. The settings option 'use compass' allows configuring the maximum speed for the compass usage. If this slider is set to 0, the compass is not used at all. If the device does not provide a compass sensor, then the option is not available in the settings.</li>
-<li>vibration on save:<br>
-defines the duration of the vibration in milliseconds when saving an address node by tapping on one of the three arrow keys on the keypad screen</li>
-<li>keypad vibration:<br>
-defines the duration of the vibration in milliseconds when tapping on any key except one of the three arrow keys on the keypad screen</li>
-<li>measurement units:<br>
-Both metric and imperial measurement units in metres and feet are supported for entering the distance between the current device position and the position of the address nodes. This allows the use of the software by users being used to imperial measuring units.</li>
-<li>distance of the address nodes:<br>
-this option allows you to define the distance of the address nodes from the device position where the user stands.<br>
-If there is an unusually wide street where the houses are far away from the pavement, it is recommended to set this option to a larger value. Alternatively, these corrections can be made in the OSM editor at a later time.</li>
+<li>Мова:<br>
+наразі Keypad-Mapper підтримує десять мов: голладнську, англійську, французьку, німецьку, грецьку, італійську, польську, російську, іспанську, українську.<br>
+Будь-ласка, зверніться в ENAiKOON якщо маєте бажання перекласти цю програму на іншу мову. Ваш запит буде вітатися!<br>
+Дуже вдячні Stefano за італійський переклад, а також за рекламу Keypad-Mapper 3 на talk-it<br>
+Додатково висловлюємо вдячність користувачу Adam за польський переклад, та Harry за голландський.</li>
+<li>Оцініть програму:<br>
+Високий рейтинг програми на Google Play надзвичайно важливий щоб привабити максимальну кількість OSM-мапперів. Будь-ласка, посприяйте нам в просування цієї програми високою оцінкою!</li>
+<li>Вилучити всю зібрану інформацію:<br>
+Після передачі інформації на комп'ютер та відвантаження її в OSM ви напевне захочете вилучити дані на пристрої щоб звільнити трохи місця для наступної подорожі. Опція 'Вилучити всю зібрану інформацію' на екрані налаштувань слугує саме для цього.<br>
+Опція 'Вилучити всю зібрану інформацію' свідомо не включена ні в панель меню, ні в навіґаційне меню, щоб вберегти дані від необережного вилучення. Вона доступна лише на екрані налаштувань.</li>
+<li>Тримати екран увімкнутим:<br>
+дає вам можливість уникати вимикання екрану пристрою, що буває через певний період неактивності</li>
+<li>Використовувати компас:<br>
+Зазвичай для визначення напрямків 'ліворуч' чи 'праворуч' відносно напрямку руху використовується в першу чергу інформація GPS. Якщо швидкість руху занизька, або коли маппер навіть зупиняється, приймач GPS може постачати хибну інформацію. Це слабке місце технології GPS.<br>
+Щоб здолати цю проблему, Keypad-Mapper може використовувати компас, вбудований в численні пристрої на Android. Опція 'Використовувати компас' дозволяє задати максимальну швидкість використання компаса. Коли цей повзунок встановлено на 0, компас взагалі не використовуватиметься. Якщо пристрій не містить сенсору компаса, ця опція буде недоступною.</li>
+<li>Вібрація при збереженні:<br>
+задає тривалість вібрації в мілісекундах при збереженні адресної точки тапом на одній з трьох клавіш зі стрілками</li>
+<li>Вібрація клавіатури:<br>
+задає тривалість вібрації в мілісекундах при тапі на будь-якій клавіші за винятком однії з трьох клавіш зі стрілками на екрані клавіатури</li>
+<li>Одиниці вимірювання:<br>
+Для вводу відстаней від поточного положення пристрою до адресної точки підтримуються обидві системи одиниць вимірювання, метрична та англійська - у метрах та футах.</li>
+<li>Відстань до адресної точки:<br>
+ця опція дозволяє визначати відстань до адресних точок від положення пристрою, у якому знаходиться користувач.<br>
+Коли трапиться незвичайно широка вулиця, де будинки розташовані далеко від проїжджої частини, рекомендуємо вказати більше значення. Або ці правки можна зробити згодом в редакторі OSM.</li>
 
 
 help_text_4
 Help text (part 4)
-<li>turn off GPS:<br>
-allows to switch off GPS while the user has de-activated the recording in order to save battery</li>
-<li>Wi-Fi data only:<br>
-this option is especially helpful if your current GSM data plan is expensive or if the amount of free data is limited.</li>
-<li>.wav file path:<br>
-defines the .wav file path on your computer which will be used to save the recorded audio notes; this information is required by JOSM for proper loading of the .wav files</li>
-<li>optimise layout:<br>
-this option is only available on small phones. It allows to remove some items from the keypad screen in order to use the available space optimally.</li>
-<li>error reporting:<br>
-allows to send a bug report to the developers in case the app crashes; this enables the developers to identify the problem and to fix it</li>
-<li>help:<br>
-shows this help file</li>
-<li>about:<br>
-provides some general application information including the detailed version number</li>
+<li>Вимкнути GPS:<br>
+дає можливість вимкнути GPS на період коли користувач вимикає запис щоб заощадити заряд батареї</li>
+<li>Використовувати лише Wi-Fi:<br>
+ця опція особливо корисна якщо ваш тариф GSM дорогий або об'єм безкоштовних даних обмежений.</li>
+<li>Шлях до файлів .wav:<br>
+задає шлях до файлів .wav на вашому комп'ютері, який буде використаний при збереженні записаних звукових нотаток; ця інформація необхідна редактору JOSM для вірного завантаження файлів .wav</li>
+<li>Оптимізувати компонування:<br>
+опція доступна лише на маленьких екранах. Дозволяє приховати деякі елементи з екрану клавіатури для оптимальнішого використання простору екрану.</li>
+<li>Звіти про помилки:<br>
+дозволяє надіслати звіти про помилки розробникам у випадках коли програма некоректно завершує роботу; це дає змогу розробникам ідентифікувати та усунути причину помилки</li>
+<li>Довідка:<br>
+відображає цей файл довідки</li>
+<li>Про програму:<br>
+надає деяку узагальнену інформацію, включно з повним номером версії</li>
 </ul>
-<h3><u>Tips and tricks</u></h3>
-<b>House number mapping process:</b><br>
-It is most effective to walk on one side of the street along the pavement to record the house numbers of both sides of the street at the same time.<br>
-With practice, it is possible to enter the house numbers without stopping at each house. By adopting an optimal walking speed, it is possible to find a rhythm that allows the user to record all house numbers carefully while processing as many house numbers as possible.<br>
+<h3><u>Поради і підказки</u></h3>
+<b>Процес позначення номерів:</b><br>
+Найефективніше буде йти однією стороною вулиці, записуючи номери будівель на обох її сторонах одночасно.<br>
+Набувши певного досвіду, ви зможете вводити номери не зупиняючись. Підібравши оптимальну швидкість, можна знайти ритм, що дозволяє акуратно записувати номери усіх будівель, обробляючи при цьому максимально можливу їх кількість.<br>
 <br>
-<b>Mapping of information that has nothing to do with house numbers</b><br>
-Enthusiastic mappers may feel compelled to map additional information that has nothing to do with house numbers and addresses while walking through the streets with Keypad-Mapper 3.<br>
-Reality has proven that it is not efficient to do so as much less information will be mapped compared to focusing on house numbers.<br>
-This also applies for recording street names, postal codes, and other address information; many streets in OSM are already tagged with the postal code, city, and country, which means that it is easier to copy this information later from the street entry to the house number entry instead of typing all this information on your phone&nbsp;/ tablet. This approach saves a lot of time, allowing you to contribute more information to OSM in a given time frame.<br>
+<b>Позначення інформації, що не має відношення до адрес</b><br>
+Захопливі картографи, гуляючи з Keypad-Mapper 3, можуть відчути потребу позначення додаткових відомостей, ніяк не пов'язаних з адресами.<br>
+Насправді доведено, що така практика призводить до маппінгу набагато менших об'ємів інформації, ніж могло б бути за умови концентрування на номерах будівель.<br>
+Це стосується назв вулиць, поштових індексів та іншої адресної інформації; багато вулиць в OSM вже позначені, включаючи індекси, населений пункт, країну, а це означає, що набагато легше цю інформацію перенести згодом з вулиці, а не вбивати її всю в телефон&nbsp;/ планшет. Такий підхід заощаджує багато часу, дозволяючи вам внести більше інформації в OSM. Крім того, згідно чинних домовленостей в Україні пріоритетною є адресація через відношення<br>
 <br>
-<b>Internet connection for address validation:</b><br>
-Keypad-Mapper 3 has a feature that shows the postal code and street name of the current GPS position in the keypad screen. This is useful to see if OSM already knows the correct postcode and street name of the actual position.<br>
-The app uses NOMINATIM for this purpose, an address server which uses OpenStreetMap data only. The NOMINATIM server used is provided by ENAiKOON. It is regularly updated on weekends.<br>
-Displaying street name and postal code information requires the device to be connected to the internet. In the settings menu, you can limit the internet connection to Wi-Fi connections only. In this case, showing the postal code and street name does not work while walking along the streets.<br>
-The street name and postal code shown in the keypad screen is updated every 10 seconds. This causes some data traffic that may eat up your GPRS inclusive data volume of your data plan.<br>
+<b>Отримання адресної інформації з інтернет:</b><br>
+Keypad-Mapper 3 має можливість відображення поштових індексів та назв вулиць в поточному положенні GPS на екрані клавіатури. Це може бути корисним щоб перевірити чи є вже в OSM вірні поштові індекси та назви вулиць в даному місці.<br>
+Для цього програма використовує NOMINATIM, адресний сервер на основі даних виключно від OpenStreetMap. Використовується сервер NOMINATIM, наданий ENAiKOON. Він оновлюється щотижнево, на вихідних.<br>
+Відображення назви вулиці та поштового індексу вимагає наявності інтернет-з'єднання. В меню налаштувань ви можете обмежити інтернет-з'єднання лише мережами Wi-Fi. Тоді поштові індекси та назви вулиць не відображатимуться коли ви гулятимете вулицями.<br>
+Назва вулиці та поштовий індекс на екрані оновлюються кожні 10 секунд. Це призводить до певної витрати трафіку, що може призвести до перевитрат об'ємів GPRS-даних згідно тарифів вашого оператора.<br>
 <br>
-<b>Address editor:</b><br>
-If no postal code and / or street name is shown or invalid address data is shown, this normally means that the OSM database does not contain correct data for the particular location. In this case it is possible to add this data in the address editor screen of the app by tapping on the icon with the house and then tapping on 'address editor'.<br>
-This information is then saved in the OSM file for transmitting it later via e-mail to the PC with the OSM editor. In your OSM editor, this information will be automatically grouped together with the house number.<br>
+<b>Редактор адрес:</b><br>
+Якщо не відображено поштового індексу та / або назви вулиці, або якщо відображено невірні відомості, як правило, це свідчить про база OSM не містить вірних даних у цьому конкретному місці. В такому випадку можна ці дані ввести на екрані редактору адрес тапом на піктограмі з хатинкою і подальшим тапом на 'Редактор адрес'.<br>
+Інформація буде збережена у файлі OSM для подальшої передачі електронною поштою на комп'ютер з редактором OSM.  У вашому редакторі OSM, вона буде автоматично пов'язана з номером будівлі.<br>
 <br>
 
 help_text_5
 help text (part 5)
-<b>Screen layout:</b><br>
-Smartphones:<br>
-Depending on the screen resolution, the keypad screen has a different layout: the letters for house numbers are 'a' to 'c' on small screens and 'a' to 'l' on bigger screens.<br>
-If you are using a device with a small screen but require the use of letters 'd' to 'l', turn the screen to landscape. You will have the letters from  'a' to 'l' available on the keypad. Another option is to long tap into the house number entry field. This activates the full keyboard.<br>
-If running the app on devices with small screens, it provides an additional settings option 'optimise layout' which allows suppressing various optional information on the keypad screen. This is intended to maximize the available space for the basic features of the keypad screen.<br>
+<b>Компонування екрану:</b><br>
+Смартфони:<br>
+Залежно від роздільної здатності пристрою екран клавіатури може бути по різному зкомпонований: літери номерів будівель від 'а' до 'в' на малих екранах або від 'а' до 'л' на більших.<br>
+Якщо у вас пристрій з малим екраном, але є потреба використання літер від 'г' до 'л', переверніть екран, зорієнтувавши його горизонтально. На клавіатурі будуть відображені літери від 'а' до 'л'. Інший спосіб - тривалий тап на полі вводу номеру будівлі, це активує повнорозмірну клавіатуру.<br>
+Також на пристроях з малими екранами доступний додатковий параметр налаштувань 'Оптимізувати компонування', який приховує різноманітні необов'язкові відомості на екрані клавіатури. Це зроблено для максимізації корисного простору під основні операції на екрані клавіатури.<br>
 <br>
-Tablets:<br>
-Some mappers are using 7" to 10" tablets for mapping. The relatively new Google Nexus 7 seems to be especially wide spread amongst mappers. This can be attributed to the fact that these devices have a longer battery life, allowing mappers to go on extended mapping tours without having to change the battery.<br>
-Keypad-Mapper 3 provides an optimised interface for tablet users in both landscape and portrait modes. This UI is automatically activated on all devices with a minimum screen size of 7". Samsung Galaxy Note 1 and 2 are NOT using the tablet layout. Despite the fact that they are categorised as tablets the screen area available on these devices is not big enough for a proper tablet layout.<br>
+Планшети:<br>
+Деякі картографи використовують для маппінгу планшети з діагоналлю екрана від 7" до 10". Схоже, що відносно новий Google Nexus 7, набув особливого поширення поміж мапперів. Це можна пояснити тим фактом, що дані пристрої особливо довго працюють від батарей, дозволяючи мапперам здійснювати тривалі картографічні подорожі без підзарядки батарей.<br>
+Keypad-Mapper 3 дозволяє оптимізувати інтерфейс під використання на планшетах як в портретній, так і альбомній орієнтаціях. Такий режим активується автоматично на усіх пристроях з мінімальним розміром екрану 7". Samsung Galaxy Note 1 і 2 НЕ використовують планшетне компонування. Незважаючи на те, що вони позиціоновані як планшети, доступна на них область екрану недостатньо велика для планшетного компонування.<br>
 <br>
-The tablet layout differentiates from the phone layout as follows:
+Відмінності між планшетним та телефонним компонуваннями:
 <ul>
-<li>different sorting order of the icons in the menu bar: the most important icons are as close to the position of the thumb as possible</li>
-<li>more icons are shown in the menu bar compared to the phone layout</li>
-<li>the keypad screen and the address editor screen are both visible at the same time:<br>this gives a better overview of the currently configured / mapped data</li>
-<li>the house number entry field is missing in the address editor screen</li>
-<li>in portrait mode, the keypad layout of the landscape mode for phone UI is used; this makes two-hand data entry possible</li>
+<li>різне розташування піктограм в панелі меню: найважливіші з них розташовані якомога ближче до великого пальця</li>
+<li>більше піктограм розміщено в панелі меню, порівняно з телефонним компонуванням</li>
+<li>екрани клавіатури та редактора адрес видимі одночасно:<br>це надає кращий огляд даних - сконфіґурованих / замаплених</li>
+<li>поле вводу номеру будівлі відсутнє на екрані редактору адрес</li>
+<li>у портретному режимі використовується компонування клавіатури, ідентичне альбомній орієнтації телефону; це уможливлює ввод даних обома руками</li>
 </ul>
 <br>
-<b>Additional tag for each house number / address node</b><br>
-The following tag is automatically added to each house number: survey:date<br>
-The tag states when the mapper was in fact at that position to record the house number. This date is normally earlier than the "created" timestamp in the OSM database.<br>
+<b>Додатковий тег для кожного номеру будівлі / адресної точки</b><br>
+До кожного номеру будівлі автоматично додається такий тег: survey:date<br>
+Тег констатує коли фактично маппер побував у тому місці щоб записати номер будівлі. Зазвичай ця дата раніша за дату "created" у базі OSM.<br>
 <br>
 <h3><u>OpenCellIDs</u></h3>
-<a href="http://www.opencellids.org"><font color="#ffbf27">www.opencellids.org</font></a> is an open source project complementary to OSM.<br>
-The intention of this project is to collect GPS positions of GSM base stations. The data collected by the contributors of this project can be downloaded from www.opencellids.org for unlimited private and commercial use.<br>
-One of the main reasons for collecting OpenCellIDs data is that it can later be used for locating devices in areas where GPS reception is not available. In addition, GSM localisation consumes significantly less battery power than GPS-based localisation; however, GSM is known to be less accurate than GPS in rural areas.<br>
-OpenCellIDs is the biggest open source collection of GPS positions of GSM base stations worldwide. At the beginning of 2013, the database held approx. 2.7 million unique cells. Currently the database is growing by 1,000 to 2,000 new unique cells per calendar day. In total, we estimate that there are at least 25 million unique GSM cells worldwide; this means that 10-15% of the world's cells have already been discovered.<br>
-Keypad-Mapper 3 is automatically collecting OpenCellIDs data in the background without any interaction required by the user. The chosen way of implementing this feature ensures that the data is collected fully anonymous ensuring full compliance with the very strict German privacy laws.<br>
-Keypad-Mapper 3 is a perfect application for collecting OpenCellIDs data while simultaneously collecting house numbers because Keypad-Mapper 3 users systematically walk down many different streets which guarantees optimal data for OpenCellID. Base stations along main roads can already be found in the database but base stations off the main streets are rare.
+<a href="http://www.opencellids.org"><font color="#ffbf27">www.opencellids.org</font></a> - це відкритий проект , який доповнює OSM.<br>
+Мета проекту - збір GPS-положень базових станцій GSM. Дані, зібрані добровільцями проекту, можна завантажити з www.opencellids.org для необмеженого особистого і комерційного використання.<br>
+Однією з головних причин збору даних OpenCellIDs є те, що згодом їх можна використати для визначення розташування пристрою в районах, де прийом сигналів GPS неможливий. До того ж, GSM-локалізація потребує значно меншого споживання енергії батарей, ніж GPS; хоча GSM є суттєво менш точною, ніж GPS у сільських районах.<br>
+OpenCellIDs - це найбільша відкрита база координат GPS по всьому світу. На початку 2013-го року вона налічувала близько 2,7 млн. унікальних базових станцій. На даний час база зростає щодня на 1,000 - 2,000 нових унікальних базових станцій. Загалом за приблизними оцінками налічується щонайменше 25 млн. унікальних GSM базових станцій по всьому світу; тобто, вже відкрито 10-15% станцій світу.<br>
+Keypad-Mapper 3 автоматично збирає дані OpenCellIDs у фоновому режимі, без потреби взаємодії з користувачем. Обраний спосіб дозволяє мати певність, що дані зібрані анонімно у повній відповідності з дуже суворим німецьким законодавством у сфері охорони конфіденційності.<br>
+Keypad-Mapper 3 - чудова програма для збору даних OpenCellIDs одночасно зі збором номерів будівель, оскільки користувачі Keypad-Mapper 3 систематично прогулюються багатьма вулицями, що гарантує оптимальність даних для OpenCellID. Базові станції вздовж головних доріг вже занесені в базу, але базові станції подалі від вулиць - це рідкість.
 
 help_text_footer
 Footer for help file
@@ -476,7 +476,7 @@ Header for help file
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>KPM31 help file</title>
+<title>Довідковий файл KPM31</title>
 <style type="text/css" > </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
@@ -485,27 +485,27 @@ Header for help file
 
 help_title
 Title for the help screen
-tips and tricks
+Поради і підказки
 
 hint_turn_off_gps_updates
 When not recording and "turn GPS updates" is checked and user clicks on GPS precision, this message appears
-please disable option "turn off GPS updates" in settings if you want to see GPS status when not recording
+будь-ласка, вимкніть опцію "Вимкнути GPS" в налаштуваннях, якщо хочете бачити стан GPS коли вимкнутий запис
 
 Housename
 Text label for house name field
-house name
+Ім'я будівлі
 
 Housenumber
 Text label for house number field
-house number
+Номер будівлі
 
 keypad_info_hint
 Hint text on keypad for additional info - let the translation not lose meaning that a additional note can be saved by not specifying a house number
-note for this location
+Примітка до місця
 
 km_per_hour
 attached to end of status value for compass setting
-km/h
+км/год
 
 lang_support_codes
 Double click for change! Do not translate this text! It is for language autodetection
@@ -518,6 +518,7 @@ it
 nl
 pl
 ru
+uk
 
 lang_support_names
 Double click for change! Supported language names
@@ -530,6 +531,7 @@ Italiano
 Nederlands
 Polski
 Русский
+Українська
 
 lang_support_urls
 Double click for change! DO NOT TRANSLATE!!
@@ -542,179 +544,180 @@ http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applica
 http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=nl_NL
 http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=pl_PL
 http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=ru_RU
+http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=uk_UA
 
 locationNotAvailable
 Error message when location is not available
-house number cannot be saved because there is no GPS reception or valid filtered data
+неможливо зберегти номер через відсутність сигналу GPS або досить точних даних про розташування
 
 menu_address_editor
 Popup text for button that switch screen to address editor
-address editor
+Редактор адрес
 
 menu_address_keypad
 Popup text for button that switches the screen to keypad
-keypad
+Клавіатура
 
 menu_camera
 Popup text for camera button
-camera
+Камера
 
 menu_freeze_gps
 Popup text for freeze gps button
-freeze GPS
+Зафіксувати GPS
 
 menu_gps_accuracy
 Popup text for gps precision button
-GPS precision
+Точність GPS
 
 menu_light
 Light text
-light
+світлий
 
 menu_missing_numbers
 Popup text for missing numbers
-missing house numbers
+номери будівель відсутні
 
 menu_recording_GPS
 Caption text of popup menu option for start/stop data recording
-recording data
+Запис даних
 
 menu_rotation
 Rotation text
-screen rotation
+поворот екрану
 
 menu_settings
 Text for the button that opens settings screen
-settings
+Налаштування
 
 menu_share
 Popup text for share button
-share recorded
-data
+Передати записані
+дані
 
 menu_undo
 Popup text for undo button
-undo
+Скасувати
 
 menu_unfreeze_gps
 Popup text for unfreeze gps button
-unfreeze GPS
+Зняти фіксування GPS
 
 meters_display_unit
 Usually m - it will be displayed on menu and in satellite info
-m
+м
 
 miles_per_hour
 attached to the end of status value for compass setting
-mph
+миль/год
 
 missing_number_no_data
 No data found for missing numbers
-No data could be read from the server
+Дані з сервера не отримані
 
 notification_title
 Notification title
-Data recording is active
+Запис даних активний
 
 notRecording
 Toast message to be shown when a save is attempted, but app is not recording
-house number cannot be saved because you are not recording
+номер не може бути збережений, оскільки ви не увімкнули запис
 
 no_location
 Message tells that gps is required for selected action
-sorry, your action could not be completed without GPS reception or valid filtered data
+вибачте, ваша дія не може бути завершена через відсутність сигналу GPS або досить точних даних про розташування
 
 OK
 Button text
-ok
+Так
 
 options_bugreport
 Title for setting on preference screen
-error reporting
+Звіти про помилки
 
 options_bugreport_dontsend
 Text of don't send button (error dialog)
-don't send
+не надсилати
 
 options_bugreport_neversendmessage
 Message to user about error in case he choose not to send bug-reports
-Keypad-Mapper 3 was forcibly restarted! If you want to send a bug report to the developers then please enable \'Error reporting\' in the settings of this app.
+Keypad-Mapper 3 було примусово перезапущено! Якщо хочете надіслати розробтикам звіт про помилку, будь-ласка, увімкніть опцію \'Звіти про помилки\' в налаштуваннях програми.
 
 options_bugreport_ok
 Ok button on error dialog
-ok
+Так
 
 options_bugreport_question
 Text in error dialog
-Keypad-Mapper 3 was forcibly restarted! Do you want to send a bug report to the developers?
+Keypad-Mapper 3 було примусово перезапущено! Надіслати розробникам звіт про помилку?
 
 options_bugreport_send
 Text of send button (error dialog)
-send
+Надіслати
 
 options_bugreport_summary
 Details for setting on preference screen
-Do you want to send bug reports to the developers?
+Надсилати звіти про помилки розробникам?
 
 options_bugreport_values_1
 Option for bug report setting
-never
+ніколи
 
 options_bugreport_values_2
 Option for bug report setting
-always
+завжди
 
 options_bugreport_values_3
 Option for bug report setting
-ask before sending
+питати щоразу
 
 popupAudioText
 Text for audio note button
-audio note
+Звукова нотатка
 
 Postcode
 Text label for postcode field
-postal code
+Поштовий код
 
 prefsAbout
 About button text
-about
+Про програму
 
 prefsAboutDetails
 About button details text
-check application info
+Інформація про програму
 
 prefsClearFolderQuestion
 Question before deleting all files created by Keypadmapper
-Do you want to delete all files recorded by Keypad-Mapper 3?
+Вилучити усі файли, записані Keypad-Mapper 3?
 
 prefsClearFolderQuestionNo
 No button for deleting files request
-cancel
+скасувати
 
 prefsClearFolderQuestionYes
 Yes button for deleting recorded files by Keypadmapper
-delete all data
+видалити усі дані
 
 prefsClearFolderSummary
 Summary for "delete all files" option
-This option deletes all collected data stored by the app on this device: OSM files, GPX files, and photos taken with this app. You would normally use this feature after successfully transmitting the data via email to your PC.
+Ця опція видаляє усі зібрані дані, збережені програмою на цьому пристрої: файли OSM, файли GPX, зроблені програмою фотографії. Зазвичай цим варто користуватися після успішної передачі даних електронною поштою на ваш комп'ютер.
 
 prefsClearFolderTitle
 Title for option for deleting KeypadMapper folder on the preference screen
-delete all collected data
+Вилучити всю зібрану інформацію
 
 prefsComputerWaveFilePathSummary
 Summary for WAV file path
-WAV file path on your computer which will be used in tags in GPX files
+шлях до файлів на вашому комп\'ютері, який буде використаний в тегах у файлах GPX
 
 prefsComputerWaveFilePathTitle
 Preference title for WAV file path
-.wav file path
+Шлях до файлів .wav
 
 prefsDataCategory
 Data category title
-Data
+Дані
 
 prefsDataDistanceEntriesFt_1
 Distance in ft
@@ -750,82 +753,82 @@ Distance in ft
 
 prefsDataDistanceEntries_1
 Distance in meters
-1 m
+1 м
 
 prefsDataDistanceEntries_10
 Distance in meters
-10 m
+10 м
 
 prefsDataDistanceEntries_15
 Distance in meters
-15 m
+15 м
 
 prefsDataDistanceEntries_2
 Distance in meters
-2 m
+2 м
 
 prefsDataDistanceEntries_20
 Distance in meters
-20 m
+20 м
 
 prefsDataDistanceEntries_25
 Distance in meters
-25 m
+25 м
 
 prefsDataDistanceEntries_5
 Distance in meters
-5 m
+5 м
 
 prefsDataDistanceEntries_8
 Distance in meters
-8 m
+8 м
 
 prefsDataPlacementDistance
 Distance setting name
-distance of the address nodes
+Відстань до адресних точок
 
 prefsDataPlacementDistanceSummary
 Summary for placement distance setting
-distance of the address nodes from the current position of the device when the house number is stored
+Відстань до адресних точок від поточного розташування пристрою в момент збереження номеру
 
 prefsGeneralCategory
 General category title
-General
+Загальні
 
 prefsHelpSummary
 Summary for help option at the settings screen
-get tips for using this app
+Довідка з використання програми
 
 prefsHelpTitle
 Title for help option at the settings screen
-help
+Довідка
 
 prefsKeyboardVibrationSummary
 Summary for keypad/keyboard vibration option
-vibrate when tapping on a key for the amount of time in miliseconds configured with the slider below
+Період вібрації в мілісекундах при натисканні на кнопку, сконфігурований слайдером нижче
 
 prefsKeyboardVibrationTitle
 keypad vibration preference title
-keypad vibration
+Вібрація клавіатури
 
 prefsLanguageSummary
 Change language button text (details)
-choose your language: Deutsch, Español, Français, Ελληνικά, Italiano, Nederlands, Polski, Русский
+Оберіть мову: Deutsch, Español, Français, Ελληνικά, Italiano, Nederlands, Polski, Русский, Українська
 
 prefsLanguageTitle
 Change language button text (title)
-language
+Мова
 
 prefsMeasurementEntryFeet
 Description to be shown as a selection option for feet
-imperial
+Англійська
 
 prefsMeasurementEntryMeters
 Description to be shown as a selection option for meters
-metric
+Метрична
 
 prefsMeasurementsEntries_1
-meters
+метри
 m
 
 prefsMeasurementsEntries_2
@@ -834,35 +837,35 @@ ft
 
 prefsMeasurementSummary
 Summary for "measurement unit" preference
-you can choose between "metric" and "imperial"
+Можете вибрати між "метричною" and "англійською"
 
 prefsMeasurementTitle
 Text for the preference line
-measurement units
+Одиниці вимірювання
 
 prefsOptimizeLayout
 Settings name for layoutoptimization on small screens
-optimise layout
+Оптимізувати компонування
 
 prefsScreenOnSummary
 Keep screen on option summary
-The screen will remain on when activated. Activating this option will drain the battery.
+Екран залишатиметься увімкнутим коли програма активна. Це виснажить батарею.
 
 prefsScreenOnTitle
 Keep screen on option title
-keep screen on
+Тримати екран увімкнутим
 
 prefsShare
 Share option on preference screen (title)
-share recorded data
+Передати записані дані
 
 prefsShareDetails
 Share option on preference screen (details)
-Share GPX, OSM, WAV, and JPG files
+Передати файли GPX, OSM, WAV, і JPG
 
 prefsShareEmailCancel
 Text for cancel button on the share screen
-cancel
+Скасувати
 
 prefsShareEmailHint
 Hint for e-mail input box
@@ -870,49 +873,49 @@ e-mail
 
 prefsShareEmailShare
 text for share button
-share
+Передати
 
 prefsShareEmailTitle
 Title for dialog that request e-mail for sharing
-enter e-mail recipient
+Вазначте отримувача e-mail
 
 prefsTurnOffGpsUpdatesSummary
 description of stopping GPS updates when not recording
-switch GPS off while the user has de-activated the recording in order to save battery
+Вимкнути GPS коли користувач вимикає запис щоб заощадити заряд батареї
 
 prefsTurnOffGpsUpdatesTitle
 title of preference to stop GPS updates when not recording
-turn off GPS
+Вимкнути GPS
 
 prefsUICategory
 UI Settings
-vibration
+Вібрація
 
 prefsUseCompassSummary
 compass summary
-Up to the speed selected with the slider below, compass information is used instead of GPS heading information for calculating the address node position.
-If the slider is set to value zero, then the compass information is NOT used. The speed is either specified in km/h or mph depending on the measurements settings.
-If the compass feature is active due to low speed, then the GPS precision icon indicates this with an integrated compass needle. This needle does NOT indicate the current heading.
+При швидкості руху нижчій за задану слайдером нижче, для визначення положення адресних точок використовуватиметься компас замість інформації GPS.
+Якщо задати нульове значення, інформація компаса НЕ використовуватиметься. Швидкість вказується або в км/год, або в милях/год в залежності від налаштування системи вимірювання.
+При використанні компасу на низьких швидкостях піктограма точності GPS буде доповнена стрілкою компаса. Стрілка НЕ відображає поточний напрям.
 
 prefsUseCompassTitle
 Compass preference title
-use compass
+Використовувати компас
 
 prefsUseWifiOnlySummary
 Summary for "Use only wifi settings"
-show street name and postcode only if a Wi-Fi connection exists
+Показувати назву вулиці і поштовий індекс лише за наявності з'єднання Wi-Fi
 
 prefsUseWifiOnlyTitle
 Use wi-fi only settings title
-Wi-Fi data only
+Використовувати лише Wi-Fi
 
 prefsVibrationOnSave
 vibration on saved location - title
-vibrate on save
+Вібрація при збереженні
 
 prefsVibrationOnSaveSummary
 Summary text for vibration on save option
-vibrate when the node is saved for the amount of time in miliseconds configured with the slider below
+Період вібрації в мілісекундах при збереженні адресної точки, сконфігурований слайдером нижче
 
 prefUICategory
 UI Settings title
@@ -924,11 +927,11 @@ http://www.enaikoon.de/gpsSuiteCellId/measure/uploadCsv
 
 quit
 Button text
-quit
+Вийти
 
 rateme_dont_ask
 Text for the "don't ask" button on the rate me screen
-don't ask again
+більше не питати
 
 rateme_keypad
 Second line of the text on the rate me screen
@@ -936,29 +939,29 @@ Keypad-Mapper 3!
 
 rateme_later
 Text for the "later" button on the rate me screen
-later
+згодом
 
 rateme_text
 Description on the rate me screen
-We would really appreciate it if you could review or rate Keypad-Mapper 3 in Google Play.
+Для нас справді важливі ваші відгук або оцінка програми Keypad-Mapper 3 в Google Play.
 
-Would you like to do this now?
+Хочете оцінити зараз?
 
 rateme_thankyou
 First line of the text on the rate me screen
-Thank you for using
+Дякуємо за те, що користуєтесь
 
 rateme_yes
 Text for the "yes" button
-yes
+Так
 
 satellite_accuracy
 Title for accuracy information
-accuracy
+Точність
 
 satellite_glonass
 Label for Glonass satellites
-GLONASS
+ГЛОНАСС
 
 satellite_gps
 Label for GPS Satellites
@@ -966,37 +969,37 @@ GPS
 
 satellite_in_use
 Label for information about used satellites
-in use:
+використано:
 
 satellite_in_view
 Label for information about satellites in view
-in view:
+видимих:
 
 satellite_no_gps
 Text if there are no gps info
-please change your location
-to a place with
-better GPS reception
+Будь-ласка, перейдіть у місце,
+де прийом сигналів GPS
+буде кращим
 
 satellite_n_a
 Accuracy is not available
-n/a
+н/д
 
 settings_rate_summary
 Summary for rate me
-please support Keypad-Mapper 3 and review or rate Keypad-Mapper 3 in Google Play
+Будь-ласка, підтримайте Keypad-Mapper 3 відгуком або оцінкою в Google Play
 
 settings_rate_title
 Title for rate me
-rate the app on Google Play
+Оцініть програму в Google Play
 
 set_distance_to_nodes
 Set distance to nodes title
-Set the distance of the address nodes (%1$s)
+Задати відстань до адресних точок (%1$s)
 
 statusAccuracy
 Accuracy info at the menu
-%d m
+%d м
 
 statusAccuracyFt
 Accuracy info at the menu (ft)
@@ -1004,11 +1007,11 @@ Accuracy info at the menu (ft)
 
 Street
 Text label for street field
-street
+Вулиця
 
 system_settings
 Text for the button that opens system settings
-settings
+Налаштування
 
 test_version_opencellid_upload_url
 URL used to upload CSV opencellID data for TEST version. Don't translate!
@@ -1016,16 +1019,16 @@ http://www.enaikoon.de/gpsSuiteCellId/measure/uploadCsv
 
 title_number_list
 Missing numbers screen title
-Missing house numbers
+Відсутні номери будівель
 
 title_select_street
 Select street screen title
-Select street
+Оберіть вулицю
 
 writeToNewFile
 Toast message
-writing to new files
+запис нових файлів
 
 zip_fail
 Text of the message when apps failed to zip files
-could not create zip file
+Помилка запису zip-архіву
