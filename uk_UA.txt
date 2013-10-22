@@ -757,7 +757,7 @@ Name of POI label
 
 new_level_spinner
 New level spinner text
-Новир шар
+Новий шар
 
 notification_title
 Notification title
