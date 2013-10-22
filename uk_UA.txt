@@ -30,6 +30,18 @@ Helmholtzstrasse 2-9<br/>
 10587 Berlin<br/>
 Germany
 
+activate
+Activate button text
+Задіяти
+
+add
+Add button
+Додати
+
+add_poi_text
+Add poi label
+Додати POI
+
 all_streets_in_selected_radius
 Missing numbers all streets
 усі вулиці в заданих межах
@@ -37,6 +49,10 @@ Missing numbers all streets
 app_name
 Application name
 Keypad-Mapper 3
+
+back
+Back button text
+Назад
 
 bugreport_dialogheader
 Title of dialog that notify user about error
@@ -162,21 +178,57 @@ buttonSep3
 Text on the button that print symbol /
 /
 
+button_load_text
+Button load text
+Завантажити
+
 cancel
 CANCEL button text
 скасувати
+
+change_level
+Change level button
+Змінити шар
 
 City
 Text label for city field
 Населений пункт
 
+clear
+Clear button
+Очистити
+
+clear_value_data_after_save
+Clear value data after save label
+Видаляти дані після збереження
+
 close
 Button text
 закрити
 
+copy_poi
+Copy poi longclick option
+Копіювати POI
+
 Countrycode
 Text lable for country code
 Код країни
+
+default_label
+Default level label
+Стандартний шар
+
+delete
+Delete button
+Вилучити
+
+delete_poi
+Delete poi longclick option
+Вилучити POI
+
+description
+Description label
+Опис
 
 dialog_wav_explanation_html
 HTML explaining what the preference for WAV file path means
@@ -201,6 +253,34 @@ Missing numbers distance feet
 distance_of_node_to_pos
 Popup window distance text
 Відстань до точки\nвід мене
+
+downloading_data_for_feet
+Downloading data for feet units
+Завантаження даних для футів
+
+download_data_for
+Download data for street toast
+Завантаження даних вулиці
+
+download_offline_data
+Download data menu text
+Завантаження даних
+
+edit
+Edit button
+Правка
+
+edit_icon_for_layer
+Label for edit icon layer text
+Правити шар
+
+edit_poi
+Edit poi longclick option
+Правити POI
+
+empty_label
+EMPTY label
+Мітка порожня
 
 errorFileOpen
 Text of the message that tells about reading/writing file errors
@@ -230,13 +310,33 @@ error_no_location_for_audio
 Error to show when user taps record audio note icon, but there's no reception or valid filtered data
 Звукові нотатки неможливо записати за відсутності сигналу GPS або достатньо точних даних про розташування
 
+export
+Export button
+Експорт
+
+failed_to_export
+Error toast when failed to export icon level
+Помилка експорту
+
 feet_display_unit
 Always ft - it will be displayed in menu and in satellite info
 ft
 
+file_have_wrong_format
+Error toast when cant parse icon level file
+Невірний формат файлу
+
+file_reading_failed
+Error toast when file cant be read
+Неможливо прочитати файл
+
 FolderCreationFailed
 Message that tells about error during folder creation
 Помилка створення теки на зовнішньому носії
+
+group
+Group label
+Група
 
 help_text_1
 Help text (part 1)
@@ -499,13 +599,33 @@ Housenumber
 Text label for house number field
 Номер будівлі
 
+icon_level_exported
+Toast message when icon exported
+Експорт завершено
+
+icon_level_name
+Icon level name label
+Назва піктограми
+
+import_button
+Import button
+Імпорт
+
 keypad_info_hint
 Hint text on keypad for additional info - let the translation not lose meaning that a additional note can be saved by not specifying a house number
 Примітка до місця
 
+kilometers_display_unit
+Kilometers unit
+Кілометри
+
 km_per_hour
 attached to end of status value for compass setting
 км/год
+
+label_loading_cancelled
+Text when loading was cancelled
+Завантаження скасовано
 
 lang_support_codes
 Double click for change! Do not translate this text! It is for language autodetection
@@ -546,9 +666,21 @@ http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applica
 http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=ru_RU
 http://liferay.enaikoon.de:8080/10-resourceeditor-services/zip/resources?applicationCode=keypadmapper&domainName=general&languageCode=uk_UA
 
+list_of_missing_received_parsing
+List of missing house numbers label
+Список відсутніх номерів
+
+list_of_streets_received_parsing
+List of nearby streets received. Parsing...
+Список сусідніх вулиць отримано. Обробка...
+
 locationNotAvailable
 Error message when location is not available
 Неможливо зберегти номер через відсутність сигналу GPS або досить точних даних про розташування
+
+location_added
+Location added toast message
+Номер додано
 
 menu_address_editor
 Popup text for button that switch screen to address editor
@@ -577,6 +709,10 @@ Light text
 menu_missing_numbers
 Popup text for missing numbers
 Номери будівель відсутні
+
+menu_poi_list
+Poi list text
+Список POI
 
 menu_recording_GPS
 Caption text of popup menu option for start/stop data recording
@@ -615,6 +751,14 @@ missing_number_no_data
 No data found for missing numbers
 Дані з сервера не отримані
 
+name_of_poi_text
+Name of POI label
+Назва POI
+
+new_level_spinner
+New level spinner text
+Новир шар
+
 notification_title
 Notification title
 Запис даних активний
@@ -629,6 +773,10 @@ Message tells that gps is required for selected action
 
 OK
 Button text
+Так
+
+ok_button
+OK button
 Так
 
 options_bugreport
@@ -670,6 +818,34 @@ Option for bug report setting
 options_bugreport_values_3
 Option for bug report setting
 Питати щоразу
+
+please_activate_recording
+Please activate recording
+Активуйте запис
+
+please_enter_name
+Please enter feature name
+Зазначте назву
+
+poi_description
+feature group description
+Опис
+
+poi_key_label
+Poi Key label
+Ключ
+
+poi_level_name
+Poi level name label
+Шар
+
+poi_template_name
+add/edit feature
+Назва шаблону
+
+poi_value_label
+Poi Value label
+Значення
 
 popupAudioText
 Text for audio note button
@@ -717,6 +893,10 @@ Preference title for WAV file path
 
 prefsDataCategory
 Data category title
+Дані
+
+prefsDataCategorySummary
+Data category summary
 Дані
 
 prefsDataDistanceEntriesFt_1
@@ -791,9 +971,21 @@ prefsDataPlacementDistanceSummary
 Summary for placement distance setting
 Відстань до адресних точок від поточного розташування пристрою в момент збереження номеру
 
+prefsDistancePoints
+Minimum distance between points label
+Мінімальна відстань між точками
+
+prefsDistancePointsSummary
+Min distance between points summary
+Мінімальна відстань між точками
+
 prefsGeneralCategory
 General category title
 Загальні
+
+prefsGeneralCategorySummary
+General category Summary
+Загальні налаштування
 
 prefsHelpSummary
 Summary for help option at the settings screen
@@ -802,6 +994,14 @@ Summary for help option at the settings screen
 prefsHelpTitle
 Title for help option at the settings screen
 Довідка
+
+prefsIconLevels
+icon level management
+Шар піктограм
+
+prefsIconLevelsSummary
+Icon levels summary
+Налаштування шару піктограм
 
 prefsKeyboardVibrationSummary
 Summary for keypad/keyboard vibration option
@@ -847,6 +1047,14 @@ prefsOptimizeLayout
 Settings name for layoutoptimization on small screens
 Оптимізувати компонування
 
+prefsPoiLevels
+Poi levels preference text
+Шар POI
+
+prefsPoiLevelsSummary
+Poi levels summary
+Налаштування шару POI
+
 prefsScreenOnSummary
 Keep screen on option summary
 Екран залишатиметься увімкнутим коли програма активна. Це виснажуватиме батарею.
@@ -879,6 +1087,10 @@ prefsShareEmailTitle
 Title for dialog that request e-mail for sharing
 Вкажіть e-mail отримувача
 
+prefsShareSummary
+Share data summary text
+Передача даних
+
 prefsTurnOffGpsUpdatesSummary
 description of stopping GPS updates when not recording
 Вимкнути GPS коли користувач вимикає запис щоб заощадити заряд батареї
@@ -891,6 +1103,10 @@ prefsUICategory
 UI Settings
 Вібрація
 
+prefsUICategorySummary
+Vibration category summary
+Налаштування вібрації
+
 prefsUseCompassSummary
 compass summary
 При швидкості руху нижчій за задану повзунком нижче, для визначення положення адресних точок використовуватиметься компас замість інформації GPS.
@@ -900,6 +1116,14 @@ compass summary
 prefsUseCompassTitle
 Compass preference title
 Використовувати компас
+
+prefsUseOldNotes
+Use old notes preferences summary
+Використовувати старі нотатки
+
+prefsUseOldNotesTitle
+Use old notes title
+Старі нотатки
 
 prefsUseWifiOnlySummary
 Summary for "Use only wifi settings"
@@ -919,7 +1143,7 @@ Summary text for vibration on save option
 
 prefUICategory
 UI Settings title
-
+Інтерфейс
 
 production_version_opencellid_upload_url
 URL used to upload CSV opencellId data for production version. Don't translate!
@@ -955,6 +1179,18 @@ rateme_yes
 Text for the "yes" button
 Так
 
+refresh
+Refresh button text
+Оновити
+
+requesting_list_of_nearby_streets
+Process status
+Отримую список сусідніх вулиць
+
+retrieving_list_of_missing_house_numbers
+Process status label
+Отримую список вудсутніх номерів
+
 satellite_accuracy
 Title for accuracy information
 Точність
@@ -985,6 +1221,42 @@ satellite_n_a
 Accuracy is not available
 н/д
 
+save_as
+Save as button text
+Зберегти як
+
+search
+Search button text
+Пошук
+
+search_by_street_name
+Search by street name label
+Пошук вулиці
+
+search_string_should_not_be_empty
+Offline data search empty message
+Слід вказати назву для пошуку
+
+select_icon
+Select icon label
+Вибір піктограми
+
+select_iconlevel_file
+Select iconlevel file label
+Оберіть піктограму шару
+
+select_icon_for_icontag
+Select icon label
+Оберіть піктограму
+
+select_icon_from_sdcard
+Select icon from sd button
+Виберіть піктограму з картки
+
+select_poi_file
+Select POI file label
+Оберіть файл POI
+
 settings_rate_summary
 Summary for rate me
 Будь-ласка, підтримайте Keypad-Mapper 3 відгуком або оцінкою в Google Play
@@ -997,6 +1269,14 @@ set_distance_to_nodes
 Set distance to nodes title
 Задати відстань до адресних точок (%1$s)
 
+shift_key_text
+Shift key text label
+Зсув
+
+shown_streets_label
+Label for missing numbers screen
+Відсутні номери
+
 statusAccuracy
 Accuracy info at the menu
 %d м
@@ -1005,9 +1285,17 @@ statusAccuracyFt
 Accuracy info at the menu (ft)
 %d ft
 
+stop_loading_data
+Button stop load text
+Зупинити
+
 Street
 Text label for street field
 Вулиця
+
+street_name
+Street name hint
+Назва вулиці
 
 system_settings
 Text for the button that opens system settings
@@ -1024,6 +1312,14 @@ Missing numbers screen title
 title_select_street
 Select street screen title
 Оберіть вулицю
+
+type_here_for_recording
+Type here for recording more info
+Тицніть тут щоб записати більше
+
+waiting_for_gps_fix
+Waiting for GPS fix label
+Очікування на GPS
 
 writeToNewFile
 Toast message
