@@ -40,7 +40,7 @@ Add button
 
 add_poi_text
 Add poi label
-Додати POI
+Додати об'єкт
 
 all_streets_in_selected_radius
 Missing numbers all streets
@@ -208,7 +208,7 @@ Button text
 
 copy_poi
 Copy poi longclick option
-Копіювати POI
+Копіювати об'єкт
 
 Countrycode
 Text lable for country code
@@ -224,7 +224,7 @@ Delete button
 
 delete_poi
 Delete poi longclick option
-Вилучити POI
+Вилучити об'єкт
 
 description
 Description label
@@ -276,7 +276,7 @@ Label for edit icon layer text
 
 edit_poi
 Edit poi longclick option
-Правити POI
+Правити об'єкт
 
 empty_label
 EMPTY label
@@ -712,7 +712,7 @@ Popup text for missing numbers
 
 menu_poi_list
 Poi list text
-Список POI
+Список об'єктів
 
 menu_recording_GPS
 Caption text of popup menu option for start/stop data recording
@@ -753,7 +753,7 @@ No data found for missing numbers
 
 name_of_poi_text
 Name of POI label
-Назва POI
+Назва об'єкту
 
 new_level_spinner
 New level spinner text
@@ -1049,11 +1049,11 @@ Settings name for layoutoptimization on small screens
 
 prefsPoiLevels
 Poi levels preference text
-Шар POI
+Шари об'єктів
 
 prefsPoiLevelsSummary
 Poi levels summary
-Налаштування шару POI
+Налаштування шарів об'єктів
 
 prefsScreenOnSummary
 Keep screen on option summary
@@ -1255,7 +1255,7 @@ Select icon from sd button
 
 select_poi_file
 Select POI file label
-Оберіть файл POI
+Оберіть файл об'єктів
 
 settings_rate_summary
 Summary for rate me
